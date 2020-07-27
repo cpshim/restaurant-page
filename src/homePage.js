@@ -7,10 +7,10 @@ const renderHome = () => {
     const image = document.createElement('img');
     const imgdiv = document.createElement('div');
 
-    title.textContent = "Welcome!";
-    p.textContent = "This is the best restaurant to experience asian cuisine!";
-    //image.setAttribute("src", "sushimain.jpg");
-    //image.classList.add('mainpic');
+    title.textContent = "Welcome to Sakura Izakaya!";
+    p.textContent = "We serve authentic and fusion Japanese food at the" + 
+        " highest of quality. We use fresh ingredients and serve them in a " +
+        "luxurious setting to create an experience you will never forget.";
     imgdiv.classList.add('image-div');
 
     imgdiv.appendChild(image);
